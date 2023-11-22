@@ -1,7 +1,7 @@
 
 # Vatsa's Portfolio
 
-Developed a Portfolio Website using React and TailwindCSS . 
+Developed a responsive Portfolio Website using React and TailwindCSS . 
 
 Was asked to make a web app similar to
 https://assert-media-vault.s3.ap-south-1.amazonaws.com/questionMedia/11/182/6/file01.jpg
