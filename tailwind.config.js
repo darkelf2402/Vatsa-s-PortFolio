@@ -16,6 +16,11 @@ export default {
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
     },
+    screens: {
+      'xs': '580px',
+      'md': '768px',
+      'lg': '1024px',
+    }
   },
   plugins: [
     require('tailwind-scrollbar')({ nocompatible: true }),

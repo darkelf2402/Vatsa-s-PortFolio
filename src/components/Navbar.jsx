@@ -34,11 +34,8 @@ const Navbar = () => {
   };
 
   return (
-    <div>
-      <div
-        className="text-4xl font-poppins text-gray-800 cursor-pointer pb-3 bg-white rounded-lg mb-4"
-        onClick={toggleDropdown}
-      >
+    <div className='hidden xs:flex-col xs:flex'>
+      <div className="text-4xl font-poppins text-gray-800 cursor-pointer pb-3  bg-white rounded-lg mb-4 " onClick={toggleDropdown}>
         <Menu />
       </div>
       <Transition in={showDropdown} timeout={duration}>

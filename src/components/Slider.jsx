@@ -12,7 +12,7 @@ const Carousel = () => {
   return (
     <div className=" flex flex-col md:flex-row bg-green-700">
       <div
-        className={`h-[660px] md:w-[520px] ml-5 rounded-2xl flex-1  cursor-pointer transition duration-300 relative ${
+        className={`h-[200px] xs:h-[400px] md:h-[660px] md:w-[520px] xs:w-[380px]  w-[300px] ml-5 rounded-2xl flex-1  cursor-pointer transition duration-300 relative ${
           selected === 0 ? 'bg-white transform scale-110' : 'bg-gray-200'
         } ${selected === 0 ? 'z-10 border border-blue-700' : 'z-0'}`}
         onClick={() => handleSelect(0)}

@@ -4,10 +4,9 @@ import { my_pic } from '../assets';
 
 const Resume = () => {
   return (
-    <div className="flex font-poppins flex-col items-center mt-9 min-h-screen">
+    <div className="flex font-poppins flex-col items-center mt-9 ">
       <img className="w-1/2 md:max-w-[200px] object-cover rounded-full" src={my_pic} alt="My Profile" />
 
-   
       <div className="w-full p-4 sm:p-8">
         <h1 className="text-4xl font-bold mb-4">R Srivatsa</h1>
         <p className="text-xl mb-4 text-green-700">Web Developer</p>
@@ -27,14 +26,14 @@ const Resume = () => {
 
       <div className='h-[100px]' />
 
-      <div className='flex flex-col items-center sm:flex-row sm:justify-center sm:space-x-8'>
+      <div className='flex flex-row text-center sm:flex-col sm:justify-center sm:space-x-8'>
         <a href="https://indigo-willie-44.tiiny.site" download>
-          <h4 className='mt-4 mr-4 sm:mt-0 text-md text-gray-800 hover:text-green-700 font-semibold'>
+          <h4 className='mt-4 mr-2 xs:mr-6 mb-7 xs:mt-8 text-md text-gray-800 hover:text-green-700 font-semibold'>
             Download CV
           </h4>
         </a>
         <a href="mailto:vatsa2402@gmail.com.com">
-          <h4 className='mt-4 ml-4 sm:mt-0 text-gray-800 font-semibold hover:text-green-700'>
+          <h4 className='mt-4 ml-2 xs:ml-6 xs:mt-8 text-gray-800 font-semibold hover:text-green-700'>
             Contact Me
           </h4>
         </a>

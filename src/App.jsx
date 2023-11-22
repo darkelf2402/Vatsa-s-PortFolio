@@ -10,8 +10,8 @@ import 'swiper/css';
 function App() {
 
   return (
-    <div className='h-full w-full m-2 flex flex-row '>
-        <div className='ml-0 mr-7 mt-9'>
+    <div className='h-full w-full m-2   flex '>
+        <div className='ml-0 mr-7 mt-9 '>
           <Navbar/>
         </div>
         <div className='w-full md:w-[1300px]  h-full bg-white mt-9'>
