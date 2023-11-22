@@ -4,7 +4,8 @@
 Developed a responsive Portfolio Website using React and TailwindCSS . 
 
 Was asked to make a web app similar to
-https://assert-media-vault.s3.ap-south-1.amazonaws.com/questionMedia/11/182/6/file01.jpg
+![image](https://github.com/darkelf2402/my-port/assets/93836889/0734e5e7-637a-4314-845d-205b24830258)
+
 
 ## 🔗 Deployed on Netlify
 
