@@ -10,19 +10,19 @@ const Carousel = () => {
   };
 
   return (
-    <div className=" flex flex-col md:flex-row bg-green-700">
+    <div className=" flex flex-col md:flex-row ">
       <div
-        className={`h-[200px] xs:h-[400px] md:h-[660px] md:w-[520px] xs:w-[380px]  w-[300px] ml-5 rounded-2xl flex-1  cursor-pointer transition duration-300 relative ${
-          selected === 0 ? 'bg-white transform scale-110' : 'bg-gray-200'
-        } ${selected === 0 ? 'z-10 border border-blue-700' : 'z-0'}`}
+        className={`h-[200px] xs:h-[400px] md:h-[710px]    rounded-[5px] flex-1   transition duration-300 relative ${
+          selected === 0 ? 'bg-white transform scale-105' : 'bg-white'
+        } ${selected === 0 ? 'z-10 border border-gray-200' : 'z-0'}`}
         onClick={() => handleSelect(0)}
       >
         <Resume/>
       </div>
       <div
-        className={`flex-1  m-2 p-4 cursor-pointer transition duration-300 relative rounded-2xl ${
-          selected === 1 ? 'bg-white transform scale-110' : 'bg-gray-200'
-        } ${selected === 1 ? 'z-10 border border-blue-700' : 'z-0'}`}
+        className={`flex-1  m-2 p-4 cursor-pointer transition md:h-[710px] duration-300 relative   rounded-[5px] ${
+          selected === 1 ? ' transform scale-105 bg-white' : 'bg-white'
+        } ${selected === 1 ? 'z-10 border border-gray-200 ' : 'z-0'}`}
         onClick={() => handleSelect(1)}
       >
         <AboutMe/>
